@@ -13,6 +13,7 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Plus+Jakarta+Sans&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/102bc8442d.js" crossorigin ="anonymous"></script>
 </head>
 
 <body>
@@ -21,24 +22,29 @@
   <!----Tempersture Converter---->
   <section class = 'container'>
    <div class = 'temperature-converter'>
+     <h3 class = 'head'>Temperature Converter <i class="fa-solid fa-temperature-full"></i></h3>
     <form>
       <div>
         <input type = 'text' class = 'celsius' placeholder ="Enter Celsius Temperature ">
+        <h3>°C</h3>
         <input type = 'button' class = 'celsius-converter' type = 'submit'value = 'Convert'>
       </div>
       <div>
         <input type='text' class='kelvin' placeholder="Enter Kelvin Temperature ">
+        <h3>K</h3>
         <input type = 'button' class = 'kelvin-converter' type='submit' value = 'Convert'>
       </div>
       <div>
         <input type='text' class='Fahrenheit' placeholder="Enter Fahrenheit Temperature ">
+        <h3>°F</h3>
         <input type = 'button' class = 'fah-converter' type='submit' value = 'Convert'>
       </div>
       <div>
         <input type='text' class='Rakine' placeholder="Enter Rakine Temperature ">
+        <h3>°F</h3>
         <input type = 'button' class = 'rakine-converter' type='submit' value = 'Convert'>
       </div>
-      <button class = 'reset' type = 'submit'>Reset</button>
+      <input type = 'button' class = 'reset' type = 'submit' value = 'Reset'>
     </form>
    </div>
   </section>

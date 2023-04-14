@@ -3,6 +3,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-image: url(/background.jpg);
+    background-size: cover;
   }
   .container {
     width: 100%;
@@ -17,11 +19,18 @@
     border: 1px solid black;
     padding: 2rem;
   }
+  .head{
+    text-align: center;
+    color: white;
+  }
+  h3 i {
+    margin-left: 1rem;
+  }
   form div {
     display: flex;
     justify-content: space-around;
-    gap: 2rem;
-    margin-top: 1rem;
+    align-items: center;
+    gap: 1rem;
   }
   form div input {
     border: none;
@@ -32,8 +41,8 @@
   .celsius-converter, .kelvin-converter,
   .fah-converter, .rakine-converter
   {
-    background: grey;
-    border: none;
+    background: #222021;
+    outline: none;
     color: white;
     border-radius: 5px;
     width: 4.5rem;
@@ -44,4 +53,14 @@
     justify-content: center;
     margin-top: 1.4rem;
     width: 100%;
+    background: #222021;
+    outline: none;
+    border: none;
+    color: white;
+    padding: .5rem;
+    border-radius: 5px;
   }
+  button:hover {
+    cursor: pointer;
+  }
+ 
